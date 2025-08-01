@@ -20,6 +20,9 @@ import Shifting from './Shifting.png'
 import Technician from './Technician.png'
 import twitter_icon from './twitter_icon.png'
 import Welder from './Welder.png'
+import header_img from './header_img.png'
+import logo from './logo.png'
+import Booking_icon from './Booking_icon.png'
 
 
 
@@ -45,5 +48,8 @@ export const assets = {
     Shifting,
     Technician,
     twitter_icon,
-    Welder
+    Welder,
+    header_img,
+    logo,
+    Booking_icon
 }
