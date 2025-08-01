@@ -8,7 +8,7 @@ import Driver from './Driver.png'
 import Electrician from './Electrician.png'
 import facebook_icon from './facebook_icon.png'
 import Laundry from './Laundry.png'
-import Linkedin_icon from './Linkedin_icon.png'
+import linkedin_icon from './Linkedin_icon.png'
 import logout_icon from './logout_icon.png'
 import Painter from './Painter.png'
 import play_store from './play_store.png'
@@ -37,7 +37,7 @@ export const assets = {
     Electrician,
     facebook_icon,
     Laundry,
-    Linkedin_icon,
+    linkedin_icon,
     logout_icon,
     Painter,
     play_store,
