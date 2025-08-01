@@ -4,6 +4,7 @@
     font-size: max(2vw,25px);
     text-align: center;
     font-weight: 500;
+    padding: 10px;
 }
 .app-download-platforms{
     display: flex;
@@ -19,4 +20,13 @@
 }
 .app-download-platforms img:hover{
     transform: scale(1.05);
+}
+.app-download hr{
+    margin: 10px 0px;
+    height: 2px;
+    background-color: #e2e2e2;
+    border: none;
+}
+.app-download p{
+    padding-top: 15px;
 }

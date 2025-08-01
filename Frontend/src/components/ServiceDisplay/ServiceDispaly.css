@@ -1,0 +1,28 @@
+.service-display{
+    margin-top: 30px;
+}
+.service-display h2{
+    font-size: max(2vw,24px);
+    font-weight: 600;
+}
+.Find{
+    padding-top: 10px;
+}
+.service-display-list{
+    display: grid; /* that is a powerful CSS layout system that allows you to create 2D layouts */
+    grid-template-columns: repeat(auto-fill,minmax(240px,1fr));
+    margin-top: 30px;
+    gap: 30px;
+    row-gap: 50px;
+}
+.explore-service-text{
+    padding-top: 10px;
+    max-width: 60%;
+    color: #808080;
+}
+.service-display hr{
+    margin: 10px 0px;
+    height: 2px;
+    background-color: #e2e2e2;
+    border: none;
+}
