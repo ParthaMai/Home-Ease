@@ -3,7 +3,7 @@ import Navbar from './components/Navbar/Navbar'
 import Home from './pages/Home/Home'
 import { Route, Routes } from 'react-router-dom'
 import Footer from './components/Footer/Footer'
-import Cooking from './servicePages/CookingDisplay/Cooking'
+import Cooking from './servicePages/CookingDisplay/CookingDisplay'
 import Cleaning from './servicePages/CleaningDisplay/CleaningDisplay'
 
 function App() {
@@ -14,7 +14,8 @@ function App() {
         <Navbar />
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/Cleaning' element={<Cleaning />} />
+          <Route path='/cleaning' element={<Cleaning />} />
+          <Route path='/cooking' element={<Cooking />} />
         </Routes>
       </div>
       <Footer />

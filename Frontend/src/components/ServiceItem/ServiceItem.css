@@ -6,7 +6,9 @@
     transition: 0.3s;
     animation: fadeIn 1s; /* when reload the page the food item is comes faded animation */
 }
-
+.service-item:hover{
+    box-shadow: 5px 10px 15px rgb(157, 175, 175)
+}
 .service-item-image{
     width: 100%; /* this is for all images in 100% widht */
     width: 100%;

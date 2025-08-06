@@ -2,13 +2,13 @@ import React from 'react'
 import '../ServicePagesCSS/ServicePagesItem.css'
 import { assets } from '../../assets/assets'
 
-const CleaningItem = ({ id, name, description, image, price, features }) => {
+const CookingItem = ({ id, name, description, image, price, features }) => {
     return (
         <div>
             <div className='servicePages-item'>
                 <div className="servicePages-item-img-container">
                     <img className="servicePages-item-image" src={image} alt="" />
-                    <img className='add' onClick={()=>addToCart(id)} src={assets.add_icon_white} alt="" />
+                     <img className='add' onClick={()=>addToCart(id)} src={assets.add_icon_white} alt="" />
                 </div>
                 <div className="servicePages-item-info">
                     <div className="servicePages-item-name-rating">
@@ -18,7 +18,7 @@ const CleaningItem = ({ id, name, description, image, price, features }) => {
                     <p className="servicePages-item-description">
                         {description}
                     </p>
-                     <p className='servicePages-item-price'>₹{price}</p>
+                    <p className='servicePages-item-price'>₹{price}</p>
                     {features && (
                         <ul className="servicePages-item-features">
                             {features.map((feature, index) => (
@@ -29,7 +29,7 @@ const CleaningItem = ({ id, name, description, image, price, features }) => {
                 </div>
             </div>
         </div>
-    )
+  )
 }
 
-export default CleaningItem
+export default CookingItem

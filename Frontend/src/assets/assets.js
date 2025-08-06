@@ -31,6 +31,11 @@ import OfficeCleaning from './OfficeCleaning.png'
 import ShopCleaning from './ShopCleaning.png'
 import bedroomCleaning from './bedroomCleaning.png'
 import SanitizationCleaning from './SanitizationCleaning.png'
+import HomeChef from './HomeChef.png'
+import TiffinChef from './TiffinChef.png'
+import PartyCooking from './PartyCooking.png'
+import BakingChef from './BakingChef.png'
+import add_icon_white from './add_icon_white.png'
 
 
 
@@ -47,7 +52,8 @@ export const assets = {
     twitter_icon,
     header_img,
     logo,
-    Booking_icon
+    Booking_icon,
+    add_icon_white
 }
 
 export const service_list =[
@@ -233,6 +239,60 @@ export const cleaning_list =[
             "Sanitization of door handles, switches, remotes, etc.",
             "Airborne germ control using misting/fogging (optional)",
             "Safe for homes, offices, and commercial spaces"
+        ]
+    }
+]
+export const cooking_list =[
+    {
+        _id:"1",
+        name:"Home Chef Service",
+        image:HomeChef,
+        price: "600-800",
+        description: "Enjoy delicious meals cooked fresh in your own kitchen by a professional chef, tailored to your taste, schedule, and dietary preferences.",
+        features: [
+            "Experienced chefs at your home",
+            "Customized meal planning and cooking",
+            "Optional grocery shopping by chef",
+            "Post-cooking kitchen cleanup"
+        ]
+    },
+    {
+        _id:"2",
+        name:"Tiffin/Meal Preparation",
+        image: TiffinChef,
+        price: "200-300",
+        description: "Convenient home-style tiffin and meal preparation service designed for working professionals, students, and families seeking nutritious daily food.",
+        features: [
+            "Customized meal plans (veg/non-veg)",
+            "Daily, weekly, or monthly options",
+            "Balanced and hygienic home-cooked meals",
+            "Timely preparation and packaging",
+        ]
+    },
+    {
+        _id:"3",
+        name:"Party/Event Cooking",
+        image: PartyCooking,
+        price: "2000-4000",
+        description: "Professional cooking service for house parties, family gatherings, and special events—ensuring your guests enjoy delicious, freshly prepared meals without the hassle.",
+        features: [
+            "Customizable menu based on event type",
+            "Multi-cuisine options (Indian, Chinese, Continental, etc.)",
+            "On-site cooking or pre-cooked meal delivery",
+            "Trained chefs and assistants for large gatherings",   
+        ]
+    },
+    {
+        _id:"4",
+        name:"Baking Services",
+        image: BakingChef,
+        price: "200-400",
+        description: "Delight in freshly baked treats made right in your kitchen — perfect for birthdays, celebrations, or everyday cravings.",
+        features: [
+            "Cakes, cupcakes, cookies, and more",
+            "Theme-based custom cakes for occasions",
+            "Eggless, vegan, and gluten-free options",
+            "Use of fresh, high-quality ingredients"
         ]
     }
 ]

@@ -12,8 +12,8 @@ const Cleaning = () => {
     return (
         <div>
             <div className='cleaning-display' id='cleaning-display'>
-                <h2>Explore our service</h2>
-                <p className='explore-cleaning-text'>Choose from a wide range of trusted home services — from cleaning and cooking to beauty and repairs. Our mission is to make your life easier, one professional service at a time.</p>
+                <h2>Explore our Cleaning service</h2>
+                <p className='explore-cleaning-text'>Choose from a wide range of trusted cleaning services — from deep home cleaning to sofa, kitchen, and bathroom sanitization. Our mission is to make your space spotless and stress-free, one professional service at a time.</p>
                 <hr />
                 <h2 className='Find'>Find the Right Service for You</h2>
                 <div className="cleaning-display-list">

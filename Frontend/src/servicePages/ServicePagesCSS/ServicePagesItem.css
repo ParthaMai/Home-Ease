@@ -7,6 +7,17 @@
     animation: fadeIn 1s; /* when reload the page the food item is comes faded animation */
     height: 100%;
 }
+.servicePages-item:hover{
+    box-shadow: 5px 10px 15px rgb(157, 175, 175)
+}
+.servicePages-item-img-container .add{
+    width: 35px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+    border-radius: 50%;
+}
 .servicePages-item-price{
     color: tomato;
     font-size: 22px;
