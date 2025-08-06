@@ -3,7 +3,8 @@ import Navbar from './components/Navbar/Navbar'
 import Home from './pages/Home/Home'
 import { Route, Routes } from 'react-router-dom'
 import Footer from './components/Footer/Footer'
-import Cleaning from './servicePages/Cleaning'
+import Cooking from './servicePages/CookingDisplay/Cooking'
+import Cleaning from './servicePages/CleaningDisplay/CleaningDisplay'
 
 function App() {
 
