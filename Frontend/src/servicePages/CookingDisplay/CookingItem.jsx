@@ -1,6 +1,7 @@
 import React from 'react'
 import '../ServicePagesCSS/ServicePagesItem.css'
 import { assets } from '../../assets/assets'
+import { Link } from 'react-router-dom'
 
 const CookingItem = ({ id, name, description, image, price, features }) => {
     return (
@@ -8,7 +9,7 @@ const CookingItem = ({ id, name, description, image, price, features }) => {
             <div className='servicePages-item'>
                 <div className="servicePages-item-img-container">
                     <img className="servicePages-item-image" src={image} alt="" />
-                     <img className='add' onClick={()=>addToCart(id)} src={assets.add_icon_white} alt="" />
+                     <Link to='/BookCooking'><img className='add' onClick={()=>addToCart(id)} src={assets.add_icon_white} alt="" /></Link>
                 </div>
                 <div className="servicePages-item-info">
                     <div className="servicePages-item-name-rating">

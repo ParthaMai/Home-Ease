@@ -24,6 +24,12 @@
     font-weight: 500;
     margin: 10px 0px;
 }
+.servicePages-item .servicePages-item-info select{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    outline-color: orange;
+    padding: 5px;
+}
 .servicePages-item-image{
     width: 100%; /* this is for all images in 100% widht */
     width: 100%;

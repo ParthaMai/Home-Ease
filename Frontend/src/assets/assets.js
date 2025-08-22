@@ -36,6 +36,21 @@ import TiffinChef from './TiffinChef.png'
 import PartyCooking from './PartyCooking.png'
 import BakingChef from './BakingChef.png'
 import add_icon_white from './add_icon_white.png'
+import MensHaircut from './MensHaircut.png'
+import WomenHairCut from './WomenHairCut.png'
+import predicure from './predicure.png'
+import Skincare from './Skincare.png'
+import Makeup from './Makeup.png'
+import Massage from './Massage.png'
+import Fitness from './Fitness.png'
+import Yoga from './Yoga.png'
+import Ac from './Ac.png'
+import fridge from './fridge.png'
+import TV from './Tv.png'
+import Washing from './Washing.png'
+import Ro from './RO.png'
+import Chimney from './Chimney.png'
+import Hammer from './hammer.png'
 
 
 
@@ -295,4 +310,192 @@ export const cooking_list =[
             "Use of fresh, high-quality ingredients"
         ]
     }
+]
+
+export const beauty_list =[
+    {
+        _id: "1",
+        name: "Mens Hair Cut",
+        image: MensHaircut,
+        price: 250,
+        description: "Get a fresh, stylish haircut at home tailored to your look — perfect for work, parties, or everyday grooming.",
+        features: [
+            "Haircut & Styling",
+            "Hair Coloring",
+            "Hair Spa & Treatment",
+            "Bridal & Party Hairstyles"
+        ]
+
+    },
+    {
+        _id: "2",
+        name:"Womens Hair Cut",
+        image: WomenHairCut,
+        price: 350,
+        description:"Transform your look with a professional haircut at home — from chic trims to stylish layers, perfect for any occasion or everyday elegance.",
+        features: [
+            "Haircut & Styling",
+            "Hair Coloring",
+            "Hair Spa & Treatment",
+            "Bridal & Party Hairstyles"
+        ]
+
+    },
+    {
+        _id: "3",
+        name: "Nail & Hand/Foot Care",
+        image: predicure,
+        price : 350,
+        description: "Revitalize your hands and feet with soothing manicure and pedicure treatments — perfect for relaxation, grooming, and a polished look.",
+        features: [
+            "Manicure & Pedicure",
+            "Nail Art & Nail Extensions",
+            "Gel Polish / Nail Refill"
+        ]
+    },
+    {
+        _id: "4",
+        name: "Skincare & Facial Treatments",
+        image: Skincare,
+        price: 400,
+        description: "Rejuvenate your skin with professional skincare treatments — designed to cleanse, hydrate, and restore your natural glow at home.",
+        features: [
+            "Clean-up",
+           "Basic Facial (Fruit, Pearl, Gold)",
+           "Advanced Facial",
+           "Face Bleach",
+           "Face Detan"
+        ]
+    },
+    {
+        _id: "5",
+        name:"Makeup Services",
+        image: Makeup,
+        price: 600,
+        description: "Enhance your beauty with professional makeup artistry — perfect for weddings, parties, photoshoots, or everyday elegance.",
+        features: [
+            "Party Makeup",
+            "Bridal Makeup",
+            "Engagement Makeup",
+            "Reception Makeup"
+        ]
+    },
+    {
+        _id: "6",
+        name: "Massage",
+        image: Massage,
+        price: 1100,
+        description: "Relax and rejuvenate with soothing massage therapies at home — designed to relieve stress, improve circulation, and restore balance.",
+        features: [
+            "Head, Neck & Shoulder Massage",
+            "Full Body Massage",
+            "Foot Reflexology",
+            "Stress Relief"
+        ]
+    },
+    {
+        _id: "7",
+        name:"Fitness",
+        image: Fitness,
+        price: 300,
+        description: "Achieve your health and fitness goals with personalized training sessions at home — tailored to your body type, lifestyle, and routine."
+    },
+    {
+        _id: "8",
+        name: "Yoga",
+        image: Yoga,
+        price: 300,
+        description: "Bring balance to your body and mind with guided yoga sessions at home — designed for fitness, flexibility, and inner peace."
+    }
+]
+export const technicians_list =[
+    {
+        _id: "1",
+        name: "AC Technician",
+        image: Ac,
+        description: "Keep your air conditioner running at its best with professional installation, repair, and maintenance services — all at your doorstep.",
+        features: [
+            "AC Installation & Uninstallation",
+            "AC Gas Refill & Cooling Check",
+            "AC General Service",
+            "AC Repair",
+            "Others"
+        ]
+    },
+    {
+        _id: "2",
+        name: "Refrigerator Technician",
+        image: fridge,
+        description: "Ensure your refrigerator runs smoothly with expert repair and maintenance — from cooling issues to part replacements, all handled at home.",
+        features: [
+            "Fridge Repair",
+            "Cooling Issue Fix",
+            "Compressor, Gas Refil",
+            "Others"
+        ]
+    },
+    {
+        _id: "3",
+        name: "TV Technician",
+        image : TV,
+        description: "Get reliable TV installation, wall mounting, and repair services at home — ensuring clear display, smooth sound, and hassle-free entertainment.",
+        features: [
+            "LED/LCD TV Installation",
+            "Display / Screen Repair",
+            "Others"
+        ]
+    },
+    {
+        _id: "4",
+        name: "Washing Machine Technician",
+        image: Washing,
+        description: "Keep your laundry hassle-free with expert washing machine repair, installation, and maintenance services — right at your home.",
+        features: [
+            "Installation & Uninstallation",
+            "Front & Top Load Repair",
+            "Drum / Motor / Drain Issues",
+            "Regular Maintenance & Cleaning",
+            "Others"
+        ]
+    },
+    {
+        _id: "5",
+        name: "Water Purifier Technician",
+        image: Ro,
+        description: "Ensure safe and clean drinking water with professional RO/UV purifier installation, repair, and maintenance services at your home.",
+        features: [
+            "Installation & Uninstallation",
+            "Filter & membrane replacement",
+            "Regular cleaning & maintenance",
+            "Repairs for leakage",
+            "Others"
+        ]
+    },
+    {
+        _id: "6",
+        name:"Chimeny Technician",
+        image: Chimney,
+        description: "Keep your kitchen smoke-free and clean with professional chimney installation, repair, and maintenance services at home.",
+        features: [
+            "Installation & Uninstallation",
+            "Motor, suction, and filter repair",
+            "Regular cleaning & maintenance",
+            "Fixing noise, leakage",
+            "Others"
+        ]
+    },
+    {
+        _id: "7",
+        name: "Other Technician Services",
+        image: Hammer,
+        description: "Get professional repair, installation, and maintenance services for all your home appliances — fast, reliable, and at your doorstep.",
+        features: [
+            "Inverter installation & repair",
+            "stabilizer installation & repair",
+            "Microwave and oven servicing",
+            "Geyser, iron maintenance",
+            "Others"
+        ]
+    }
+
 ]

@@ -3,13 +3,15 @@ import '../ServicePagesCSS/ServicePagesItem.css'
 import { assets } from '../../assets/assets'
 import { Link } from 'react-router-dom'
 
-const CleaningItem = ({ id, name, description, image, price, features }) => {
+
+
+const TechnicianItem = ({ id, name, description, image, features }) => {
     return (
         <div>
             <div className='servicePages-item'>
                 <div className="servicePages-item-img-container">
                     <img className="servicePages-item-image" src={image} alt="" />
-                    <Link to='/BookCleaning'><img className='add' onClick={()=>addToCart(id)} src={assets.add_icon_white} alt="" /></Link>
+                    <Link to='/BookCooking'><img className='add' onClick={() => addToCart(id)} src={assets.add_icon_white} alt="" /></Link>
                 </div>
                 <div className="servicePages-item-info">
                     <div className="servicePages-item-name-rating">
@@ -19,13 +21,16 @@ const CleaningItem = ({ id, name, description, image, price, features }) => {
                     <p className="servicePages-item-description">
                         {description}
                     </p>
-                     <p className='servicePages-item-price'>₹{price}</p>
+
                     {features && (
-                        <ul className="servicePages-item-features">
+                        <select className="servicePages-item-features">
+                            <option value="">Select Your service</option>
                             {features.map((feature, index) => (
-                                <li key={index}> {feature}</li>
+                                <option key={index} value={feature}>
+                                    {feature}
+                                </option>
                             ))}
-                        </ul>
+                        </select>
                     )}
                 </div>
             </div>
@@ -33,4 +38,4 @@ const CleaningItem = ({ id, name, description, image, price, features }) => {
     )
 }
 
-export default CleaningItem
+export default TechnicianItem
