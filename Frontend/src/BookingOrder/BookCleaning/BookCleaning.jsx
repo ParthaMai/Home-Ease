@@ -34,7 +34,7 @@ const BookCleaning = () => {
                         <input type="text" placeholder="Location Type (Home/Office/Commercial)" />
                     </div>
                     <textarea className='special-field' placeholder="Special Instructions (optional)" rows={4}></textarea>
-                    <button type='submit'>Submit booking</button>
+                    <button type='submit'>Add to Service</button>
                 </div>
             </form>
         </div>

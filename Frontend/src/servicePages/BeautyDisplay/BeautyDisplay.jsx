@@ -10,8 +10,8 @@ const BeautyDisplay = () => {
   return (
       <div>
           <div className='cleaning-display' id='cleaning-display'>
-              <h2>Explore our Cooking service</h2>
-              <p className='explore-cleaning-text'>Choose from a wide range of trusted cooking services — from daily meal prep to home chefs, party/event cooking, and baking. Our mission is to make your mealtimes delicious and stress-free, one professional service at a time.</p>
+              <h2>Explore our Beauty Services </h2>
+              <p className='explore-cleaning-text'>Choose from a wide range of trusted home services — from beauty and salon care like haircuts, facials, manicures, and makeup, to wellness solutions such as fitness training, yoga sessions, and relaxing massages. Our mission is to bring professional care, health, and relaxation to your home, helping you look good, feel strong, and live stress-free every day.</p>
               <hr />
               <h2 className='Find'>Find the Right Service for You</h2>
               <div className="cleaning-display-list">

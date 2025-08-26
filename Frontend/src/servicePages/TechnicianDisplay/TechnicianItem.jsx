@@ -11,7 +11,7 @@ const TechnicianItem = ({ id, name, description, image, features }) => {
             <div className='servicePages-item'>
                 <div className="servicePages-item-img-container">
                     <img className="servicePages-item-image" src={image} alt="" />
-                    <Link to='/BookCooking'><img className='add' onClick={() => addToCart(id)} src={assets.add_icon_white} alt="" /></Link>
+                    <Link to='/BookingInformation'><img className='add' onClick={() => addToCart(id)} src={assets.add_icon_white} alt="" /></Link>
                 </div>
                 <div className="servicePages-item-info">
                     <div className="servicePages-item-name-rating">

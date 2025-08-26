@@ -10,8 +10,8 @@ const TechnicianDisplay = () => {
   return (
     <div>
        <div className='cleaning-display' id='cleaning-display'>
-              <h2>Explore our Cooking service</h2>
-              <p className='explore-cleaning-text'>Choose from a wide range of trusted cooking services — from daily meal prep to home chefs, party/event cooking, and baking. Our mission is to make your mealtimes delicious and stress-free, one professional service at a time.</p>
+              <h2>Explore our Technical Services </h2>
+              <p className='explore-cleaning-text'>Choose from a wide range of trusted technician services — from AC and refrigerator repair to TV, washing machine, chimney, and water purifier maintenance. Our mission is to provide fast, reliable, and professional appliance care at your home, ensuring comfort and convenience every day.</p>
               <hr />
               <h2 className='Find'>Find the Right Service for You</h2>
               <div className="cleaning-display-list">

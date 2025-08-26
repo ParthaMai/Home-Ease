@@ -10,6 +10,9 @@ import BookCleaning from './BookingOrder/BookCleaning/BookCleaning'
 import ScrollToTop from './ScrollToTop'
 import BeautyDisplay from './servicePages/BeautyDisplay/BeautyDisplay'
 import TechnicianDisplay from './servicePages/TechnicianDisplay/TechnicianDisplay'
+import BookingInformation from './BookingOrder/BookingInformation/BookingInformation'
+import LaundryBooking from './BookingOrder/LaundryBooking/LaundryBooking'
+import CarpenterBooking from './BookingOrder/CarpenterBooking/CarpenterBooking'
 
 function App() {
 
@@ -25,7 +28,10 @@ function App() {
           <Route path='/BookCooking' element={<BookCooking />} />
           <Route path='/BookCleaning' element={<BookCleaning />} />
           <Route path='/beauty' element={<BeautyDisplay />} />
+          <Route path='/BookingInformation' element={<BookingInformation />} />
           <Route path='/technician' element={<TechnicianDisplay />} />
+          <Route path='/laundry' element={<LaundryBooking />} />
+          <Route path='/carpenter'  element={<CarpenterBooking />} />
         </Routes>
       </div>
       <Footer />
