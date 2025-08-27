@@ -13,6 +13,8 @@ import TechnicianDisplay from './servicePages/TechnicianDisplay/TechnicianDispla
 import BookingInformation from './BookingOrder/BookingInformation/BookingInformation'
 import LaundryBooking from './BookingOrder/LaundryBooking/LaundryBooking'
 import CarpenterBooking from './BookingOrder/CarpenterBooking/CarpenterBooking'
+import WelderBooking from './BookingOrder/WelderBooking/WelderBooking'
+import PlumberBooking from './BookingOrder/PlumberBooking/PlumberBooking'
 
 function App() {
 
@@ -32,6 +34,8 @@ function App() {
           <Route path='/technician' element={<TechnicianDisplay />} />
           <Route path='/laundry' element={<LaundryBooking />} />
           <Route path='/carpenter'  element={<CarpenterBooking />} />
+          <Route path='/plumber' element={<PlumberBooking />} />
+          <Route path='/welder' element={<WelderBooking />} />
         </Routes>
       </div>
       <Footer />

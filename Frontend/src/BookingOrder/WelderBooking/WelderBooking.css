@@ -1,0 +1,77 @@
+.Booking-display{
+    margin-top: 20px;
+}
+.Booking-display h2{
+    font-size: max(2vw,24px);
+    font-weight: 600;
+}
+.explore-cleaning-text{
+    padding-top: 10px;
+    max-width: 60%;
+    color: #808080;
+}
+.Booking-display hr{
+    margin: 10px 0px;
+    height: 2px;
+    background-color: #e2e2e2;
+    border: none;
+}
+.place-order{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 20px;
+ }
+.place-order-left{
+    width: 100%;
+    max-width: max(30%,600px);
+ }
+ .place-order-left .title{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 50px;
+ }
+ .place-order-left input{
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #c5c5c5;
+    border-radius: 4px;
+    outline-color: #cccccc;
+}
+ .place-order-left .multi-fields{
+    display: flex;
+    gap: 20px;
+}
+
+.place-order-left button{
+    margin-top: 30px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 5px;
+    background-color: #af7979;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    
+}
+.place-order-left button:hover{
+     box-shadow: 2px 2px 2px rgb(157, 175, 175)
+}
+.place-order-left .multi-fields select{
+    margin-bottom: 15px;
+    outline-color: #cccccc;
+}
+.special-field{
+    margin-top: 10px;
+    width: 100%;
+    border: 1px solid #c5c5c5;
+    border-radius: 4px;
+    outline-color: #cccccc;
+}
+.place-order-left .fields select{
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 100%;
+    outline-color: #cccccc;
+}
